@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
-
+import Card from "./components/CardG"
+import HomePage from "./pages/HomePage";
 function App() {
  
   return (
     <div>
       <Navbar/>
-      <h1 className="text-white">home</h1>
+      <HomePage/>
       <Outlet/>
+      <Card/>
     </div>
   )
 }

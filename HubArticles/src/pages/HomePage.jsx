@@ -1,8 +1,9 @@
+import HeaderPage from "../components/HeaderPage"
 function HomePage() {
  
     return (
       <div>
-        <h1>home</h1>
+        <HeaderPage/>
       </div>
     )
   }

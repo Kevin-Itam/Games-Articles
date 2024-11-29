@@ -5,3 +5,15 @@
 :root{
   background-color: #242424;
 }
+
+body {
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimentos padrão */
+  box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo do tamanho do elemento */
+  font-size: 16px; /* Define o tamanho base da fonte */
+  line-height: 1.6; /* Melhora a legibilidade */
+  color: #333; /* Cor do texto padrão */
+  -webkit-font-smoothing: antialiased; /* Suaviza fontes em navegadores Webkit */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza fontes no Firefox */
+  overflow-x: hidden; /* Impede o scroll horizontal indesejado */
+}
