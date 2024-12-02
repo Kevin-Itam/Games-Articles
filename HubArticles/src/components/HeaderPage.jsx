@@ -13,13 +13,13 @@ import '/src/index.css';
 const HeaderPage = () => {
   return (
     <div className='w-full  bg-slate-800'>
-      <div className='h-80'>
+      <div className='h-slider'>
         <Swiper
           spaceBetween={30}
           effect={'fade'}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           pagination={{
