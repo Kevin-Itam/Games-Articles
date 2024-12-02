@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       height:{
-        'slider': '40rem',
+        'slider': '35rem',
       }
     },
   },

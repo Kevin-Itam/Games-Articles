@@ -21,7 +21,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-black flex justify-between items-center h-24 max-full mx-auto text-white px-80'>
+    <div className='bg-black flex justify-between items-center h-24 max-full mx-auto text-white px-48'>
       {/* Logo */}
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
 

@@ -12,12 +12,13 @@ import '/src/index.css';
 
 const HeaderPage = () => {
   return (
-    <div className='w-full  bg-slate-800'>
+    <div>
       <div className='h-slider'>
         <Swiper
           spaceBetween={30}
           effect={'fade'}
           centeredSlides={true}
+          loop = {true}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
